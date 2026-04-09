@@ -1,0 +1,433 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: empath\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-02-05 17:05+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.6.6; wp-6.4.3\n"
+"X-Domain: empath"
+
+#: inc/admin/demo-import/functions.php:137
+#, php-format
+msgid "%s - We recommend setting memory to at least 96MB. %s."
+msgstr ""
+
+#: inc/admin/demo-import/functions.php:155
+#, php-format
+msgid ""
+"%s - We recommend setting PHP max_input_vars to at least 3000. See:\n"
+"\t\t\t\t<a href=\"%s\" target=\"_blank\">Increasing the PHP max vars "
+"limit</a>"
+msgstr ""
+
+#. 1: title.
+#: comments.php:36
+msgid "1 Comment"
+msgstr ""
+
+#: 404.php:21
+msgid "404"
+msgstr ""
+
+#: inc/breadcrumb-core.php:189 inc/template-functions.php:135
+msgid "404 - Not Found"
+msgstr ""
+
+#: inc/class-wp-empath-navwalker.php:358
+msgid "Add a menu"
+msgstr ""
+
+#: functions.php:123 functions.php:134
+msgid "Add widgets here."
+msgstr ""
+
+#: inc/breadcrumb-core.php:174 inc/breadcrumb-core.php:177
+#: inc/breadcrumb-core.php:180 inc/breadcrumb-core.php:183
+#: inc/template-functions.php:120 inc/template-functions.php:123
+#: inc/template-functions.php:126 inc/template-functions.php:129
+msgid "Archive for "
+msgstr ""
+
+#: inc/breadcrumb-core.php:97
+msgid "Blog"
+msgstr ""
+
+#. Author of the theme
+msgid "byteflows"
+msgstr ""
+
+#: inc/empath-functions.php:402 inc/empath-functions.php:436
+msgid "Cart"
+msgstr ""
+
+#: inc/empath-functions.php:473
+msgid "Checkout"
+msgstr ""
+
+#: inc/empath-functions.php:183
+msgid "Close"
+msgstr ""
+
+#: inc/template-functions.php:269
+msgid "Comment"
+msgstr ""
+
+#: single.php:26 template-parts/content-search.php:21
+#: template-parts/content.php:21
+msgid "Comments"
+msgstr ""
+
+#: comments.php:70
+msgid "Comments are closed."
+msgstr ""
+
+#. 1: comment count number, 2: title.
+#: comments.php:42
+#, php-format
+msgctxt "comments title"
+msgid "%1$s Comment"
+msgid_plural "%1$s Comments"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/admin/plugin-activation.php:36
+msgid "Contact Form 7"
+msgstr ""
+
+#. %s: Name of current post. Only visible to screen readers
+#: template-parts/content-single.php:19
+#, php-format
+msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr ""
+
+#: functions.php:157
+msgctxt "DM Sans: on or off"
+msgid "on"
+msgstr ""
+
+#. %s: Name of current post. Only visible to screen readers
+#: template-parts/content-page.php:39
+#, php-format
+msgid "Edit <span class=\"screen-reader-text\">%s</span>"
+msgstr ""
+
+#: inc/template-functions.php:286
+msgid "Email"
+msgstr ""
+
+#: inc/admin/plugin-activation.php:23
+msgid "Envato Market"
+msgstr ""
+
+#: inc/admin/admin-page.php:14
+msgid ""
+"For comprehensive information on theme settings, please refer to our online "
+"documentation, where you can find all the details you need."
+msgstr ""
+
+#: 404.php:27
+msgid "Go Back Home"
+msgstr ""
+
+#: inc/admin/admin-page.php:16
+msgid "Go to Documentation"
+msgstr ""
+
+#: inc/admin/admin-page.php:30
+msgid "Go to Support Tickets"
+msgstr ""
+
+#: inc/breadcrumb-core.php:134 inc/template-functions.php:80
+msgid "Home"
+msgstr ""
+
+#. Author URI of the theme
+msgid "http://byteflows.com/"
+msgstr ""
+
+#. URI of the theme
+msgid "http://byteflows.com/wp/empath"
+msgstr ""
+
+#: inc/admin/demo-import/functions.php:118
+msgid ""
+"If any of the option is under red mark, please contact your hosting provider "
+"and ask them to change it as recommended."
+msgstr ""
+
+#: inc/admin/class-admin-dashboard.php:101
+msgid "Import Demo Data"
+msgstr ""
+
+#: inc/admin/demo-import/functions.php:17
+#: inc/admin/demo-import/functions.php:33
+msgid ""
+"Import process may take 3-10 minutes. If you facing any issues please "
+"contact our support.After Import Succesfuly go to Appearance->Menu And Set "
+"your Menu"
+msgstr ""
+
+#: inc/admin/demo-import/functions.php:117
+msgid ""
+"Importan Notice: Before demo import please make sure your server meet(green) "
+"all required options for installing the theme"
+msgstr ""
+
+#: template-parts/content-none.php:44
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: inc/admin/demo-import/functions.php:127
+msgid "Language"
+msgstr ""
+
+#: inc/template-functions.php:268
+msgid "Leave a comment"
+msgstr ""
+
+#. %s: post title
+#: inc/template-tags.php:77
+#, php-format
+msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr ""
+
+#: inc/cs-framework-functions.php:84
+msgid "Logo"
+msgstr ""
+
+#: inc/admin/plugin-activation.php:51
+msgid "MC4WP: Mailchimp for WordPress"
+msgstr ""
+
+#: inc/admin/class-admin-dashboard.php:65
+#: inc/admin/class-admin-dashboard.php:66
+msgid "Mega Menu"
+msgstr ""
+
+#: inc/empath-functions.php:421
+msgid "Menu"
+msgstr ""
+
+#: inc/admin/demo-import/functions.php:138
+msgid "More info"
+msgstr ""
+
+#: inc/template-functions.php:284
+msgid "Name"
+msgstr ""
+
+#: template-parts/content-none.php:14
+msgid "Nothing Found"
+msgstr ""
+
+#: inc/admin/plugin-activation.php:57 inc/admin/class-admin-dashboard.php:100
+msgid "One Click Demo Import"
+msgstr ""
+
+#: 404.php:24
+msgid "Oops! Page Not found."
+msgstr ""
+
+#: functions.php:160
+msgctxt "Outfit: on or off"
+msgid "on"
+msgstr ""
+
+#: inc/breadcrumb-core.php:31
+msgid "Page not Found"
+msgstr ""
+
+#: template-parts/content-page.php:25 template-parts/content-single.php:32
+msgid "Pages:"
+msgstr ""
+
+#: inc/admin/demo-import/functions.php:149
+msgid "PHP Max Input Vars"
+msgstr ""
+
+#: inc/admin/demo-import/functions.php:166
+msgid "PHP Version"
+msgstr ""
+
+#. %s: post author.
+#: inc/template-tags.php:46
+#, php-format
+msgctxt "post author"
+msgid "by %s"
+msgstr ""
+
+#. %s: post date.
+#: inc/template-tags.php:30
+#, php-format
+msgctxt "post date"
+msgid "Posted on %s"
+msgstr ""
+
+#: functions.php:62
+msgid "Primary"
+msgstr ""
+
+#: inc/breadcrumb-core.php:35 inc/breadcrumb-core.php:103
+msgid "Product Details"
+msgstr ""
+
+#: template-parts/content-search.php:25 template-parts/content.php:25
+msgid "Read More"
+msgstr ""
+
+#. 1: link to WP admin new post page.
+#: template-parts/content-none.php:24
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: inc/empath-functions.php:408
+msgid "Search"
+msgstr ""
+
+#: inc/empath-functions.php:487
+msgid "SEARCH HERE"
+msgstr ""
+
+#: inc/empath-functions.php:84 inc/empath-functions.php:256
+#: inc/empath-functions.php:499
+msgid "Search Here"
+msgstr ""
+
+#: inc/breadcrumb-core.php:186 inc/template-functions.php:132
+msgid "Search Results for "
+msgstr ""
+
+#: inc/breadcrumb-core.php:201 inc/template-functions.php:147
+msgid "Search results for &ldquo;"
+msgstr ""
+
+#: inc/breadcrumb-core.php:29
+msgid "Search Results for : "
+msgstr ""
+
+#: inc/template-functions.php:177
+msgid "Search..."
+msgstr ""
+
+#: inc/admin/demo-import/functions.php:181
+msgid "Secure Connection(HTTPS)"
+msgstr ""
+
+#: inc/breadcrumb-core.php:100
+msgid "Shop"
+msgstr ""
+
+#: functions.php:132
+msgid "Shop Siderbar"
+msgstr ""
+
+#: inc/admin/admin-page.php:28
+msgid ""
+"Should you require any assistance, please dont hesitate to reach out through "
+"our premium support ticket system. We are here to help and answer any "
+"questions you may have."
+msgstr ""
+
+#: functions.php:121
+msgid "Sidebar"
+msgstr ""
+
+#: inc/admin/plugin-activation.php:30
+msgid "Slider Revolution"
+msgstr ""
+
+#: template-parts/content-none.php:37
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: inc/empath-functions.php:468
+msgid "Sub Total:"
+msgstr ""
+
+#: inc/admin/plugin-activation.php:46
+msgid "SVG Support"
+msgstr ""
+
+#. used between list items, there is a space after the comma
+#: inc/template-tags.php:65
+msgid "Tags:"
+msgstr ""
+
+#: inc/admin/class-admin-dashboard.php:49
+#: inc/admin/class-admin-dashboard.php:50
+msgid "Templates"
+msgstr ""
+
+#: inc/admin/admin-page.php:10
+msgid "Theme Documentation"
+msgstr ""
+
+#: inc/admin/admin-page.php:24
+msgid "Theme Support"
+msgstr ""
+
+#. Name of the theme
+#: inc/admin/class-admin-dashboard.php:29
+#: inc/admin/class-admin-dashboard.php:30
+msgid "forcast"
+msgstr ""
+
+#. Description of the theme
+msgid "empath - Transport &amp; Logistics WordPress Theme"
+msgstr ""
+
+#: inc/admin/plugin-activation.php:10
+msgid "empath Plugin"
+msgstr ""
+
+#: inc/empath-functions.php:472
+msgid "View Cart"
+msgstr ""
+
+#: inc/template-functions.php:288
+msgid "Website"
+msgstr ""
+
+#: inc/admin/plugin-activation.php:62
+msgid "WooCommerce"
+msgstr ""
+
+#: inc/admin/demo-import/functions.php:131
+msgid "WP Memory Limit"
+msgstr ""
+
+#: inc/admin/demo-import/functions.php:121
+msgid "WP Version"
+msgstr ""
+
+#: inc/admin/plugin-activation.php:41
+msgid "WPCargo Track & Trace"
+msgstr ""
+
+#: inc/template-functions.php:247
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: 404.php:25
+msgid ""
+"You’re either misspelling the URL or requesting a page thats no longer here."
+msgstr ""
+
+#: inc/empath-functions.php:233
+msgid "© Copyright 2023. All Rights Reserved. "
+msgstr ""

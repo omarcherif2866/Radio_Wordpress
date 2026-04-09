@@ -1,0 +1,83 @@
+
+.inv-about-tab-area {
+    margin-top: 38px;
+  }
+  
+  .inv-about-tab-btn {
+    padding-bottom: 8px;
+    margin-bottom: 30px;
+    border-bottom: 4px solid #f0f0f0;
+  }
+  .inv-about-tab-btn .nav-tabs .nav-link {
+    margin: 0;
+    padding: 0;
+    border: none;
+    color: #000000;
+    font-size: 19px;
+    font-weight: 800;
+    border-radius: 0;
+    position: relative;
+  }
+  .inv-about-tab-btn .nav-tabs .nav-link:before {
+    left: 0;
+    right: 0;
+    width: 0%;
+    content: "";
+    height: 4px;
+    bottom: -12px;
+    margin: 0 auto;
+    position: absolute;
+    -webkit-transition: all 500ms ease;
+    transition: all 500ms ease;
+    background-color: var(--thm-color-4);
+  }
+  .inv-about-tab-btn .nav-tabs {
+    border: none;
+  }
+  .inv-about-tab-btn li {
+    margin-right: 40px;
+  }
+  .inv-about-tab-btn li:last-child {
+    margin-right: 0;
+  }
+  .inv-about-tab-btn .nav-tabs .nav-link.active,
+  .inv-about-tab-btn .nav-tabs .nav-link:hover {
+    color: var(--thm-color-4);
+    background-color: transparent;
+  }
+  .inv-about-tab-btn .nav-tabs .nav-link.active:before,
+  .inv-about-tab-btn .nav-tabs .nav-link:hover:before {
+    width: 100%;
+  }
+  
+  .inv-about-tab-content-area .inv-about-tab-content .about-tab-icon {
+    margin-right: 45px;
+  }
+  .inv-about-tab-content-area .inv-about-tab-content .about-tab-icon i {
+    color: #000000;
+    line-height: 0.75;
+    font-size: 70px;
+  }
+  .inv-about-tab-content-area .inv-about-tab-content .about-tab-text {
+    max-width: 370px;
+  }
+  .inv-about-tab-content-area .inv-about-tab-cta {
+    margin-top: 45px;
+  }
+  .inv-about-tab-content-area .inv-about-tab-cta .inv-cta-info {
+    margin-left: 45px;
+  }
+  .inv-about-tab-content-area .inv-about-tab-cta .inv-cta-info .inner-icon {
+    width: 60px;
+    height: 60px;
+    margin-right: 15px;
+    border-radius: 100%;
+    border: 2px solid #f5f3f3;
+    color: var(--thm-color-4);
+  }
+  .inv-about-tab-content-area .inv-about-tab-cta .inv-cta-info .inner-text span {
+    display: block;
+  }
+  .inv-about-tab-content-area .inv-about-tab-cta .inv-cta-info .inner-text b {
+    color: #000000;
+  }

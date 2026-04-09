@@ -1,0 +1,103 @@
+
+.inv-faq-content {
+    padding: 120px 0px 120px 120px;
+}
+  
+  .inv-faq-accordion {
+    max-width: 570px;
+  }
+  .inv-faq-accordion .accordion-header button {
+    border: none;
+    color: #061D25;
+    font-size: 20px;
+    font-weight: 800;
+    position: relative;
+    border-radius: 3px;
+    background: transparent;
+    padding: 25px 30px 25px 85px;
+  }
+  .inv-faq-accordion .accordion-button:focus {
+    border: none;
+    outline: none;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+  }
+  .inv-faq-accordion .accordion-item {
+    border: none;
+    border-radius: 0;
+    position: relative;
+    margin-bottom: 25px;
+    background-color: #fff;
+    -webkit-box-shadow: 0px 10px 30px 0px rgba(6, 29, 37, 0.1019607843);
+            box-shadow: 0px 10px 30px 0px rgba(6, 29, 37, 0.1019607843);
+  }
+  .inv-faq-accordion .accordion-item .inv-faq-serial {
+    top: 0;
+    left: 0;
+    z-index: 1;
+    color: #fff;
+    width: 52px;
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: absolute;
+    background: #868686;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .inv-faq-accordion .accordion-item .inv-faq-serial:before {
+    top: 0;
+    left: 0;
+    z-index: -1;
+    height: 0%;
+    width: 100%;
+    content: "";
+    position: absolute;
+    background: var(--grad-color);
+    -webkit-transition: all 500ms ease;
+    transition: all 500ms ease;
+  }
+  .inv-faq-accordion .accordion-item.faq_bg .inv-faq-serial:before {
+    height: 100%;
+  }
+  .inv-faq-accordion .accordion-body {
+    color: #666666;
+    position: relative;
+    background-color: #fff;
+    padding: 10px 30px 30px 85px;
+  }
+  .inv-faq-accordion .accordion-body:before {
+    top: 40%;
+    left: 30px;
+    height: 80%;
+    content: "";
+    width: 2px;
+    position: absolute;
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+    background-color: var(--base-color);
+  }
+  .inv-faq-accordion .accordion-button:not(.collapsed) {
+    -webkit-box-shadow: none;
+            box-shadow: none;
+  }
+  .inv-faq-accordion .accordion-button::after {
+    right: 25px;
+    height: auto;
+    width: auto;
+    font-size: 20px;
+    content: "\f055";
+    font-weight: 300;
+    position: absolute;
+    background-image: none;
+    font-family: "Font Awesome 5 Pro";
+  }
+  .inv-faq-accordion .accordion-button:not(.collapsed)::after {
+    content: "\f056";
+    color: var(--base-color);
+  }

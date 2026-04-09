@@ -1,0 +1,282 @@
+.csf-options h2, .csf-options h3, .csf-field .csf-title h4 {
+    color: #fff;
+}
+.csf-theme-dark .csf-nav ul ul li .csf-active {
+    background: linear-gradient(
+90deg, #532df6 0%, #532df6 100%);
+}
+.csf-theme-dark .csf-nav ul li a {
+    color: #999;
+    border-color: #252837;
+    background-color: #181c28;
+}
+.csf-nav ul ul li a {
+    padding: 15px 14px 15px 24px;
+}
+.csf-nav ul li a {
+    padding: 15px 12px;
+}
+.csf-theme-dark .csf-nav-background {
+    background-color: #121622;
+}
+.csf-footer {
+    padding: 40px;
+}
+.csf-theme-dark .csf-footer {
+    background-color: #121622;
+}
+.csf-theme-dark .csf-header-inner {
+    background-color: #121622;
+}
+
+input.button.button-primary.csf-top-save.csf-save {
+    height: 44px;
+}
+.button.button-primary.csf-cloneable-add {
+    line-height: 44px;
+}
+.csf-field-switcher .csf--active {
+    background: linear-gradient(
+90deg, #532df6 0%, #532df6 100%);
+}
+.csf-field-switcher .csf--switcher {
+    width: 80px;
+    height: 40px;
+}
+.csf-field-switcher .csf--active {
+    background: linear-gradient(
+90deg, #532df6 0%, #532df6 100%);
+}
+.csf-field-switcher .csf--off, .csf-field-switcher .csf--on {
+    line-height: 40px;
+}
+.csf-field-switcher .csf--active .csf--ball {
+    margin-left: -32px;
+}
+.csf-field-switcher .csf--ball {
+    top: 10px;
+}
+.csf-field-switcher .csf--ball {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+.csf-field-switcher .csf--off, .csf-field-switcher .csf--on {
+    font-size: 14px;
+}
+.csf-buttons .button {
+    margin: 0 5px;
+}
+a.button.button-primary.csf-icon-add, a.button.csf-warning-primary.csf-icon-remove,
+a.button.button-primary.csf--button {
+    line-height: 44px;
+}
+
+.csf-field-switcher .csf--switcher {
+    background-color: #d33434;
+}
+.csf-field-switcher .csf--ball {
+    left: 10px;
+}
+.csf-field-slider .ui-slider-handle:hover, .csf-field-slider .ui-state-active, .csf-field-slider .ui-slider-handle{
+    background: linear-gradient(
+90deg, #532df6 0%, #532df6 100%);
+}
+.csf-field-slider .ui-slider-range {
+    background: linear-gradient(
+90deg, #532df6 0%, #532df6 100%);
+}
+.csf-theme-dark .csf-nav ul li .csf-active {
+    background: linear-gradient(
+90deg, #532df6 0%, #532df6 100%);
+}
+.csf--placeholder .button{
+    background: linear-gradient(
+90deg, #532df6 0%, #532df6 100%);
+border: none;
+}
+.csf-buttons input.button, .csf-buttons input.button.button-primary.csf-top-save.csf-save {
+    height: 50px;
+}
+.csf-search input {
+    padding: 10px 10px;
+}
+.csf-theme-dark .csf-search input, .csf-theme-dark .csf-expand-all{
+    background: #252b3b;
+}
+.csf-expand-all {
+    padding: 10px 20px;
+}
+.csf-buttons input.button.button-primary.csf-top-save.csf-save {
+    background: #532df6;
+    border: none;
+    min-width: 100px;
+}
+
+.csf-buttons input.button.csf-reset-section {
+    background: #dd4446;
+    border: none;
+    color: #fff;
+    padding: 0 20px;
+}
+.csf-buttons input.button.csf-reset-all{
+    padding: 0 20px;
+}
+.csf-theme-dark .csf-header-inner h1 small {
+    color: #6e7689;
+}
+.csf-field-subheading {
+    background-color: #181c28;
+}
+.csf-content{    
+    background-color: #181c28;
+}
+.csf-field+.csf-field {
+    border-top: 1px solid #202636;
+}
+
+.csf-content input[type=date], 
+.csf-content input[type=datetime-local], 
+.csf-content input[type=datetime], 
+.csf-content input[type=email], 
+.csf-content input[type=month], 
+.csf-content input[type=number], 
+.csf-content input[type=password], 
+.csf-content input[type=search], 
+.csf-content input[type=tel], 
+.csf-content input[type=text], 
+.csf-content input[type=time], 
+.csf-content input[type=url], 
+.csf-content input[type=week] {
+    min-height: 45px;
+    border: 1px solid #202636;
+    background: #252b3b;
+    color: #fff;
+}
+.csf-section {
+    background: #181c28;
+}
+.csf-content input.readonly, 
+.csf-content input[readonly], 
+.csf-content textarea.readonly, 
+.csf-content textarea[readonly] {
+    background-color: #252b3b;
+    border: none;
+}
+.csf-field .chosen-container-single .chosen-single {
+    height: 45px;
+    line-height: 45px;
+}
+.csf-content .chosen-container-active.chosen-with-drop .chosen-single {
+    border: 1px solid #aaa;
+    box-shadow: none;
+    background: #252b3b;
+}
+.csf-content .chosen-container-single .chosen-single {
+    background: #252b3b;
+    box-shadow: none;
+    border-color: #202636;
+    color: #fff;
+    padding: 0px 5px 5px 15px;
+}
+.csf-content .chosen-container .chosen-drop {
+    border: 1px solid #202636;
+    background: #252b3b;
+    box-shadow: none;
+    color: #fff;
+}
+.csf-content .chosen-container .chosen-results li{
+    color: #fff;
+}
+.button.button-primary.csf-cloneable-add{
+    background: #532df6;
+    border: none;
+}
+.csf-field-group .csf-cloneable-title, .csf-field-textarea textarea {
+    border: 1px solid #202636;
+    background: #252b3b;
+    color: #fff;
+}
+.csf-field-group .csf-cloneable-header-icon {
+    vertical-align: middle;
+}
+.csf-field-group .csf-cloneable-content {
+    border: 1px solid #202636;
+    background-color: #181c28;
+}
+.csf-field-repeater .csf-repeater-content{    
+    background-color: #181c28;
+}
+.csf-field-repeater .csf-repeater-wrapper .csf-repeater-item{
+    border: 1px solid #202636;
+}
+.csf-theme-dark .csf-nav-normal ul li .csf-active:after {
+    border-right-color: #181c28;
+}
+
+
+@media (min-width: 1120px){
+    .ocdi__gl-item {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 calc(25% - 30px) !important;
+        flex: 0 0 calc(25% - 30px)!important;
+    }
+}
+.ocdi__gl-item{
+    box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.07) !important;
+    border: none !important;
+    border-radius: 10px !important;
+    overflow: hidden;
+}
+
+
+.ta-inactive, mark.error {
+    background-color: rgba(230, 30, 31, 0.1);
+    color: #e61e1f;
+}
+mark.green {
+    background-color: rgba(0, 230, 64, 0.1);
+    color: #000;
+}
+
+table.system-status-table {
+    border: 1px solid #d5d5d5;
+    border-collapse: collapse;
+}
+
+table.system-status-table tr, table.system-status-table td, table.system-status-table th {
+    border: 1px solid #d5d5d5;
+    padding: 15px;
+}
+.demo__ip-notice {
+    box-shadow: 0px 0px 68px 0px rgba(19, 19, 19, 0.11);
+    padding: 30px;
+    margin-bottom: 30px;
+    width: 50%;
+}
+
+.demo__ip-notice h1 {
+    font-size: 24px;
+    line-height: 35px;
+}
+.el-license-container{
+    background: #fff;
+    padding: 10px 30px 50px;
+    border-radius: 3px;
+    margin-top: 20px;
+    color: #000;
+    webkit-box-shadow: 0 5px 40px 0 rgba(10,10,25,.1);
+    -moz-box-shadow: 0 5px 40px 0 rgba(10,10,25,.1);
+    box-shadow: 0 5px 40px 0 rgb(10 10 25 / 10%);
+}
+.el-license-container label {
+    font-size: 16px;
+    display: block;
+    font-weight: 600;
+    margin-bottom: 10px;
+    margin-top: 30px;
+}
+.el-license-field input[type="text"] {
+    padding: 8px 15px;
+}
+

@@ -1,0 +1,112 @@
+  .inv-team-member-item {
+    z-index: 1;
+    max-width: 585px;
+    padding: 0px 50px 40px 70px;
+  }
+  .inv-team-member-item:before {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 85%;
+    z-index: -1;
+    content: "";
+    position: absolute;
+    border-radius: 5px;
+    background-color: #f0f4fd;
+  }
+  .inv-team-member-item .inv-team-img {
+    z-index: 1;
+    margin-bottom: 28px;
+    display: inline-block;
+  }
+  .inv-team-member-item .inv-team-img:before {
+    width: 70%;
+    height: 10px;
+    content: "";
+    z-index: -1;
+    bottom: -8px;
+    border-radius: 3px;
+    position: absolute;
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+    background: var(--grad-color);
+  }
+  .inv-team-member-item .inv-team-img img {
+    border-radius: 5px;
+  }
+  .inv-team-member-item .inv-team-social .social-list {
+    margin-bottom: 20px;
+  }
+  .inv-team-member-item .inv-team-social .social-list a {
+    color: #fff;
+    width: 45px;
+    height: 45px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-right: 5px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    border-radius: 100%;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .inv-team-member-item .inv-team-social .social-list a.s-fb {
+    background-color: #186cb0;
+  }
+  .inv-team-member-item .inv-team-social .social-list a.s-tw {
+    background-color: #00b3d3;
+  }
+  .inv-team-member-item .inv-team-social .social-list a.s-bh {
+    background-color: #074682;
+  }
+  .inv-team-member-item .team-contact-info {
+    margin-bottom: 30px;
+  }
+  .inv-team-member-item .team-contact-info h3 a {
+    color: #183153;
+    font-size: 30px;
+    font-weight: 800;
+  }
+  .inv-team-member-item .team-contact-info span a {
+    color: #183153;
+    font-size: 17px;
+    font-weight: 800;
+    position: relative;
+    display: inline-block;
+  }
+  .inv-team-member-item .team-contact-info span a:before {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 2px;
+    content: "";
+    position: absolute;
+    background-color: #9da5b5;
+  }
+  .inv-team-member-item .inv-team-name-text span {
+    padding-bottom: 3px;
+    display: inline-block;
+    color: var(--thm-color-4);
+  }
+  .inv-team-member-item .inv-team-name-text h3 {
+    padding-bottom: 10px;
+  }
+  .inv-team-member-item .inv-team-name-text h3 a {
+    color: #000000;
+    font-size: 31px;
+    font-weight: 800;
+  }
+  
+  .inv-team-content .inv-carousel-arrow {
+    top: 58%;
+    background-color: #f0f4fd;
+  }
+  .inv-team-content .inv-team-arrow-prev {
+    left: -100px;
+  }
+  .inv-team-content .inv-team-arrow-next {
+    right: -100px;
+  }

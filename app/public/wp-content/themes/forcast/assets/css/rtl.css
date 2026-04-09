@@ -1,0 +1,294 @@
+html, body {
+    direction: rtl;
+    overflow-x: hidden; /* Prevent unwanted horizontal scrolling */
+}
+.byteflows_right_header .thm__btn {
+    margin-left: 0;
+    margin-right: 18px;
+}
+.breaking__news-wrapper span {
+    margin-right: 0;
+    margin-left: 25px;
+}
+
+.bytf_breaking_active {
+    margin-left: 0;
+    margin-right: 10px;
+}
+
+.bytf_breaking_active .slick-arrow {
+    right: auto;
+    left: 2px;
+}
+
+.breaking__news-wrapper span:after {
+    right: auto;
+    left: -25px;
+    border-right: 0;
+    border-left: 25px solid transparent;
+}
+.bytf__postmeta ul li i {
+    margin-right: 0;
+    margin-left: 2px;
+}
+.breaking__news-wrapper span {
+    margin-right: 0;
+    margin-left: 25px;
+}
+
+.bytf_breaking_active {
+    margin-left: 0;
+    margin-right: 10px;
+}
+
+.bytf_breaking_active .slick-arrow {
+    right: auto;
+    left: 2px;
+}
+
+.breaking__news-wrapper span:after {
+    right: auto;
+    left: -25px;
+    border-right: 0;
+    border-left: 25px solid transparent;
+}
+
+::after {}
+
+.bytf__post-overlay-item .bytf__content:after {
+}
+
+.bytf__postmeta ul li i {
+    margin-right: 0;
+    margin-left: 2px;
+}
+
+.bytf__post-grid-rating-item .bytf__feature-image {
+    margin-right: 0;
+    margin-left: 24px;
+}
+
+.bytf__post-grid-rating-item .empath-cate-badge, .bytf__post-grid-rating-item-two .empath-cate-badge {
+    margin-right: 0;
+    margin-left: 15px;
+}
+
+.bytf__post-wrapper.rating__post-wrapper .row>div:last-child {
+    padding-left: 10px;
+    padding-right: 25px;
+}
+
+.bytf__post-wrapper.rating__post-wrapper .row>div:not(:last-child) {
+    padding-left: 55px;
+    padding-right: 10px;
+}
+
+.bytf__post-wrapper.rating__post-wrapper:after {
+    margin-left: auto;
+    margin-right: -17px;
+    left: auto;
+    right: 50%;
+}
+.bytf__postmeta ul li:not(:last-child) {
+    margin-right: 0;
+    margin-left: 25px;
+}
+.bytf__section-heading .btn_wraper a i {
+    margin-left: 0;
+    margin-right: 10px;
+}
+.bytf__postmeta .authore img {
+    margin-right: 0;
+    margin-left: 10px;
+}
+.bytf__post-grid-item .bytf__feature-image {
+    margin-right: 0;
+    margin-left: 20px;
+}
+.bytf__post-grid-item .bytf__feature-image {
+    margin-right: 0;
+    margin-left: 20px;
+}
+
+.bytf__post-grid-rating-item-two .bytf__feature-image {
+    margin-right: 0;
+    margin-left: 30px;
+}
+
+.social__item-inner .social_icon i {
+    margin-right: 0;
+    margin-left: 10px;
+}
+.bytf__post-grid-rating-item-two.ajax__post-item .bytf__feature-image {
+    margin-left: 0;
+    margin-right: 30px;
+}
+
+.bytf__post-grid-rating-item-two.ajax__post-item.flex-row-reverse .bytf__feature-image {
+    margin-right: 0;
+    margin-left: 30px;
+}
+.post__slider-main-wrapper .slider__thumbs {
+    right: auto;
+    left: 250px;
+}
+
+.bytf__post-fo-thumb-item .bytf__feature-image {
+    margin-right: 0;
+    margin-left: 20px;
+}
+.empath__recent-img {
+    margin-right: 0;
+    margin-left: 15px;
+}
+
+.single__one_top .bytf__postmeta ul li:not(:last-child) {
+    margin-right: 0;
+    margin-left: 30px;
+}
+.empath__recent-img {
+    margin-right: 0;
+    margin-left: 15px;
+}
+
+.single__one_top .bytf__postmeta ul li:not(:last-child) {
+    margin-right: 0;
+    margin-left: 30px;
+}
+
+.entry-content.empath__single-content ul li:after {
+    left: auto;
+    right: 0;
+}
+
+.entry-content.empath__single-content ul li {
+    padding-left: 0;
+    padding-right: 22px;
+}
+.navi__post-main-item .post-image {
+    margin-right: 0;
+    margin-left: 15px;
+}
+.byteflows_menu .byteflows_menu-nav>li:not(:last-child) {
+    padding-right: 0;
+    padding-left: 50px;
+}
+.side-mobile-menu ul li.dropdown > a::after {
+    right: auto;
+    left: 16px;
+}
+.bytf__post-tab-item .bytf__feature-image {
+    margin-left: 0;
+    margin-right: 15px;
+}
+
+.bytf__post-tab-item .post_count {
+    margin-right: 0;
+    margin-left: 12px;
+}
+
+.header__category-maenu .byteflows_category-nav li:not(:last-child) {
+    padding-right: 0;
+    padding-left: 57px;
+}
+.hidden-bar .upper-box .nav-logo {
+    text-align: right;
+}
+.header__category-maenu .byteflows_category-nav li:after {
+    left: auto;
+    right: -30px;
+}
+
+.title__wrapper svg {
+    margin-right: 0;
+    margin-left: 10px;
+}
+
+.post_tile_large-sm .bytf__feature-image {
+    margin-right: 0;
+    margin-left: 10px;
+}
+.main-header-three .header__category-maenu .byteflows_category-nav li:not(:last-child) {
+    padding-right: 0;
+    padding-left: 32px;
+}
+.main-header-seven .date_h {
+    padding-right: 0;
+    padding-left: 20px;
+    margin-right: 0;
+    margin-left: 20px;
+}
+.main-header-seven .search_popup {
+    margin-left: 0;
+    margin-right: 25px;
+}
+.main-header-seven .date_h:after {
+    right: auto;
+    left: 0;
+}
+.post__hero-item .bytf__postmeta-info-wrapper ul {
+    padding-left: 0;
+    padding-right: 15px;
+}
+
+.post__hero-item .bytf__postmeta ul li:not(:last-child):after {
+    right: auto;
+    left: -12px;
+}
+.bytf__heading-five .bytf__title {
+    padding-right: 0;
+    padding-left: 30px;
+    margin-right: 0;
+    margin-left: 30px;
+}
+.post-ov-sroller {
+    direction: ltr;
+}
+.bytf__heading-five .bytf__title:after {
+    right: auto;
+    left: 0;
+}
+.bytf-single-slider-wrapper-tr .slider-for {
+    margin-right: 0;
+    margin-left: 30px;
+}
+.newsletter__wrapper-three .newsletter_content .icon {
+    margin-right: 0;
+    margin-left: 20px;
+}
+
+.newsletter__wrapper-three .ns_form {
+    margin-left: 0;
+    margin-right: 100px;
+}
+
+.newsletter__wrapper-three .mc4wp-form-fields button {
+    right: auto;
+    left: 0;
+}
+.bytf__postmeta-info-wrapper-two .empath-cate-badge-six {
+    margin-right: 0;
+    margin-left: 15px;
+}
+.bytf__post-grid-clm-item.style__eight .item__count {
+    margin-right: 0;
+    margin-left: 20px;
+}
+
+.bytf__postmeta-two li:not(:last-child) {
+    margin-right: 0;
+    margin-left: 24px;
+}
+
+.bytf__postmeta-two li:not(:last-child):after {
+    right: auto;
+    left: -12px;
+}
+.post__single-gallery-wrapper {
+    overflow: hidden;
+    direction: ltr;
+}
+.main-header-three .byteflows_logo {
+    margin-left: 0;
+    margin-right: 30px;
+}

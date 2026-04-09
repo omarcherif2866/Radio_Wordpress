@@ -1,0 +1,129 @@
+<?php 
+/**
+ * Header Template View 1
+ */
+if ( ! empty( $settings['ads_link']['url'] ) ) {
+    $this->add_link_attributes( 'ads_link', $settings['ads_link'] );
+}
+if ( ! empty( $settings['bookmark_link']['url'] ) ) {
+    $this->add_link_attributes( 'bookmark_link', $settings['bookmark_link'] );
+}
+?>
+<header class="main-header main-header-one is-sticky">
+    <?php if($settings['enable_header_top'] === 'yes'):?>
+    <div class="header__top-wraper">
+        <div class="container">
+            <div class="header__top-wraper-inner d-flex justify-content-between align-items-center">
+                <div class="header__top-innrer-left">
+                    <div class="header__top-info htop__left-info">
+                        <?php if(!empty($settings['quick_text'])):?>
+                            <span class="quick-link"><?php echo esc_html__($settings['quick_text'], 'empath-plugin'); ?></span>
+                        <?php endif;?>
+                        <ul>
+                            <?php foreach($settings['links'] as $item):?>
+                                <li>
+                                    <a aria-label="name" target="<?php echo esc_attr( $item['link']['is_external'] ? '_blank' : '_self' ); ?>" rel="<?php echo esc_attr( $item['link']['nofollow'] ? 'nofollow' : '' ); ?>" href="<?php echo $item['link']['url'] ? esc_url($item['link']['url']) : ''; ?>" ><?php echo esc_html($item['title']);?></a>
+                                </li>
+                            <?php endforeach;?>
+                        </ul>
+                    </div>
+                </div>
+                <div class="header__top-innrer-right d-flex justify-content-between align-items-center">
+                <i class="fal fa-calendar-alt"></i> <?php echo esc_html( date_i18n( 'l, j F Y' ) ); ?>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <?php endif;?>
+    <div class="header__top-main-wrap">
+          <div class="container">
+             <div class="header__top-main-wrap-inner d-flex justify-content-between align-items-center">
+                <?php if(!empty($__rzlogo['url']) || !empty($_dark_rzlogo['url'])):?>
+                    <div class="byteflows_logo">
+                        <a aria-label="name" class="dark-logo" href="<?php echo esc_url($custom_link);?>"><img src="<?php echo esc_url($__rzlogo['url']);?>" alt=""></a>
+                        <a aria-label="name" class="light-logo" href="<?php echo esc_url($custom_link);?>"><img src="<?php echo esc_url($_dark_rzlogo['url']);?>" alt=""></a>
+                    </div>
+                 <?php endif;?>
+                 <div class="header__adds">
+                    <a aria-label="name" class="light" <?php echo $this->get_render_attribute_string( 'ads_link' ); ?>>
+                        <img src="<?php echo esc_url($settings['ads_image']['url']);?>" alt="<?php if(!empty($settings['ads_image']['alt'])){ echo esc_attr($settings['ads_image']['alt']);}?>">
+                    </a>
+                    <a aria-label="name" class="dark" <?php echo $this->get_render_attribute_string( 'ads_link' ); ?>>
+                        <img src="<?php echo esc_url($settings['ads_dark_image']['url']);?>" alt="<?php if(!empty($settings['ads_dark_image']['alt'])){ echo esc_attr($settings['ads_dark_image']['alt']);}?>">
+                    </a>
+                 </div>                
+                <div class="byteflows_right_header d-flex align-items-center">    
+                    <div class="header__social-icon">
+                        <?php foreach($settings['hsocials'] as $item):?>
+                        <a aria-label="name" class="elementor-repeater-item-<?php echo esc_attr($item['_id']);?>"  data-toggle="tooltip" title="<?php echo esc_html($item['title'])?>" target="<?php echo esc_attr( $item['link']['is_external'] ? '_blank' : '_self' ); ?>" rel="<?php echo esc_attr( $item['link']['nofollow'] ? 'nofollow' : '' ); ?>" href="<?php echo $item['link']['url'] ? esc_url($item['link']['url']) : ''; ?>"><?php \Elementor\Icons_Manager::render_icon( $item['icons'], [ 'aria-hidden' => 'true' ] ); ?></a>
+                        <?php endforeach;?>
+                    </div>                
+                    <?php if(!empty($settings['btn_label'])):?>
+                        <a aria-label="name" class="thm__btn d-none d-md-block" href="<?php echo esc_url($settings['btn_link']['url']);?>"><?php echo esc_html($settings['btn_label']);?></a>
+                    <?php endif;?>
+                </div>
+             </div>
+          </div>                      
+    </div>
+    <div class="header__menu-wrapper bytf-sticky-header">
+        <div class="container">
+           <div class="header__maenu d-flex justify-content-between align-items-center">
+                <div class="hamburger__menu toggle-hidden-bar">
+                    <svg width="32" height="24" viewBox="0 0 32 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect width="32" height="3.2" rx="1.6" fill="black"/>
+                        <rect y="10.2" width="32" height="3.2" rx="1.6" fill="black"/>
+                        <rect y="20.3999" width="20" height="3.2" rx="1.6" fill="black"/>
+                    </svg>
+                </div>
+                <div class="hamburger_menu bytf__mobile-menu">
+                    <svg width="32" height="24" viewBox="0 0 32 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect width="32" height="3.2" rx="1.6" fill="black"/>
+                        <rect y="10.2" width="32" height="3.2" rx="1.6" fill="black"/>
+                        <rect y="20.3999" width="20" height="3.2" rx="1.6" fill="black"/>
+                    </svg>
+                </div>
+                <div class="byteflows_menu">
+                    <?php
+                    wp_nav_menu( 
+                        array(
+                            'menu' => !empty($settings['choose-menu']) ? $settings['choose-menu'] : 'menu-1',
+                            'menu_id'        =>'byteflows-main-nav',
+                            'menu_class'        =>'byteflows_menu-nav',
+                            'container'=>false,
+                            'fallback_cb'    => 'Navwalker_Class::fallback',
+                            'walker'         => class_exists( 'Rs_Mega_Menu_Walker' ) ? new \Rs_Mega_Menu_Walker : '',
+                        )
+                    );
+                    ?>
+                </div>
+                <div class="header__control d-flex justify-content-between align-items-center">
+                    <?php if($settings['enable_bookmark'] === 'yes'):?>
+                        <div class="byt__bookmark">
+                            <a aria-label="name" <?php echo $this->get_render_attribute_string( 'bookmark_link' ); ?>>
+                                <svg width="18" height="22" viewBox="0 0 18 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M16.5556 21L8.77778 15.4444L1 21V3.22222C1 2.63285 1.23413 2.06762 1.65087 1.65087C2.06762 1.23413 2.63285 1 3.22222 1H14.3333C14.9227 1 15.4879 1.23413 15.9047 1.65087C16.3214 2.06762 16.5556 2.63285 16.5556 3.22222V21Z" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </a>
+                        </div>
+                    <?php endif;?>
+                    <?php 
+                        if($settings['enable_dark_s'] === 'yes'){
+                            $this->empath_dark_mode(); 
+                        }                    
+                    ?>
+                    <?php if($settings['enable_search'] === 'yes'):?>
+                        <div class="search_popup search__open-btn d-none bytf-trigger-open d-xl-mc-none d-md-block">
+                            <span>
+                                <svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M7.75021 0.666992C6.62071 0.667088 5.5076 0.937296 4.50376 1.45507C3.49992 1.97285 2.63446 2.72317 1.97957 3.64345C1.32469 4.56373 0.899386 5.62728 0.739135 6.74536C0.578884 7.86344 0.688336 9.00363 1.05836 10.0708C1.42838 11.138 2.04825 12.1012 2.86624 12.8801C3.68423 13.659 4.67663 14.231 5.76064 14.5483C6.84465 14.8657 7.98883 14.9192 9.09773 14.7044C10.2066 14.4896 11.2481 14.0128 12.1352 13.3137L15.1785 16.357C15.3357 16.5088 15.5462 16.5928 15.7647 16.5909C15.9832 16.589 16.1922 16.5013 16.3467 16.3468C16.5012 16.1923 16.5889 15.9833 16.5908 15.7648C16.5927 15.5463 16.5087 15.3358 16.3569 15.1787L13.3135 12.1353C14.1369 11.0908 14.6495 9.83566 14.7928 8.51343C14.9361 7.1912 14.7042 5.85534 14.1237 4.65874C13.5433 3.46213 12.6376 2.45312 11.5105 1.74718C10.3833 1.04125 9.08018 0.666903 7.75021 0.666992ZM2.33354 7.75033C2.33354 6.31374 2.90423 4.93599 3.92005 3.92016C4.93587 2.90434 6.31362 2.33366 7.75021 2.33366C9.1868 2.33366 10.5646 2.90434 11.5804 3.92016C12.5962 4.93599 13.1669 6.31374 13.1669 7.75033C13.1669 9.18692 12.5962 10.5647 11.5804 11.5805C10.5646 12.5963 9.1868 13.167 7.75021 13.167C6.31362 13.167 4.93587 12.5963 3.92005 11.5805C2.90423 10.5647 2.33354 9.18692 2.33354 7.75033Z" fill="black"/>
+                                </svg>
+                            </span>
+                        </div>
+                    <?php endif;?>
+                </div>
+           </div>
+        </div>
+    </div>
+</header>
+<?php $this->offcanvas_menu(); $this->mobile_menu(); $this->___search_body();?>

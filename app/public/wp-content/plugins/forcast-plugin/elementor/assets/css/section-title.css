@@ -1,0 +1,25 @@
+
+.inv-section-title .subtitle {
+    line-height: 1;
+    font-size: 18px;
+    font-weight: 700;
+    padding-left: 18px;
+    position: relative;
+    margin-bottom: 10px;
+    display: inline-block;
+  }
+  .inv-section-title .subtitle:before {
+    top: 0;
+    left: 2px;
+    width: 7px;
+    content: "";
+    height: 13px;
+    position: absolute;
+  }
+  .inv-section-title h2 {
+    color: #000000;
+    font-size: 55px;
+    font-weight: 800;
+    line-height: 1.2;
+    padding-bottom: 5px;
+  }

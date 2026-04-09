@@ -1,0 +1,46 @@
+
+.inv-testimonial {
+    padding: 75px 100px 0px 75px;
+  }
+  
+  .inv-testimonial-item .quote-icon {
+    margin-bottom: 18px;
+  }
+  .inv-testimonial-item .inv-testimonial-text {
+    color: #c7c5db;
+    font-size: 20px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+  }
+  .inv-testimonial-item .inv-testimonial-author .author-rate {
+    margin-bottom: 5px;
+  }
+  .inv-testimonial-item .inv-testimonial-author .author-rate li {
+    color: #c3b802;
+    font-size: 15px;
+  }
+  .inv-testimonial-item .inv-testimonial-author .author-name .name {
+    color: #fff;
+    font-size: 26px;
+    font-weight: 800;
+  }
+  .inv-testimonial-item .inv-testimonial-author .author-name .designation {
+    color: #535ee0;
+    margin-left: 15px;
+    font-size: 16px;
+    font-weight: 500;
+  }
+  
+  .inv-testimonial-thumb-area {
+    width: 160px;
+    bottom: -70px;
+    overflow: hidden;
+    position: relative;
+    border-radius: 5px;
+    margin-right: 55px;
+  }
+  
+  .inv-testimonial-slide-for-area {
+    max-width: 465px;
+    margin-top: 90px;
+  }

@@ -1,0 +1,100 @@
+
+.inv-service-slider-area {
+    padding-top: 35px;
+  }
+  
+  .inv-service-slider-item {
+    z-index: 1;
+    margin: 0 auto;
+    max-width: 385px;
+  }
+  .inv-service-slider-item:before {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    z-index: -1;
+    content: "";
+    height: 85%;
+    border-radius: 8px;
+    position: absolute;
+    background-color: #1f242c;
+  }
+  .inv-service-slider-item .inv-service-img {
+    overflow: hidden;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    display: inline-block;
+  }
+  .inv-service-slider-item .inv-service-img img {
+    -webkit-transition: all 500ms ease;
+    transition: all 500ms ease;
+  }
+  .inv-service-slider-item .inv-service-text {
+    padding-bottom: 22px;
+  }
+  .inv-service-slider-item .inv-service-text h3 a {
+    color: #fff;
+    font-size: 26px;
+    font-weight: 800;
+  }
+  .inv-service-slider-item .inv-service-text h3 a:hover {
+    letter-spacing: 1px;
+  }
+  .inv-service-slider-item .inv-service-text span {
+    display: inline-block;
+  }
+  .inv-service-slider-item:hover .inv-service-img img {
+    -webkit-transform: scale(1.05);
+            transform: scale(1.05);
+  }
+  
+  .inv-carousel-arrow-next-prev .inv-carousel-arrow {
+    top: 50%;
+    width: 58px;
+    height: 58px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: absolute;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    border-radius: 100%;
+    background-color: #fff;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+    -webkit-transition: all 500ms ease;
+    transition: all 500ms ease;
+  }
+  .inv-carousel-arrow-next-prev .inv-carousel-arrow:hover {
+    color: #fff;
+    background-color: #007aff;
+  }
+  .inv-carousel-arrow-next-prev .inv-service-arrow-prev {
+    left: -70px;
+  }
+  .inv-carousel-arrow-next-prev .inv-service-arrow-next {
+    right: -70px;
+  }
+  
+  .inv-service-bottom-text-btn {
+    color: white;
+    margin-top: 45px;
+  }
+  .inv-service-bottom-text-btn p {
+    font-size: 20px;
+    padding-bottom: 5px;
+  }
+  .inv-service-bottom-text-btn p a {
+    color: #fff;
+    text-decoration: underline;
+  }
+  .inv-service-bottom-text-btn h3 {
+    color: #fff;
+    font-size: 40px;
+    font-weight: 700;
+    padding-bottom: 25px;
+  }

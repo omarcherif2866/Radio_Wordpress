@@ -1,0 +1,52 @@
+
+---Downloaded files---
+The import files for: Newspaper Classic were successfully downloaded!
+Initial max execution time = 1200
+Files info:
+Site URL = http://tre-radio.local
+Data file = C:\Users\WWS\Local Sites\tre-radio\app\public/wp-content/themes/forcast/inc/admin/demo-import/demo-content/news-classic/content.xml
+Widget file = C:\Users\WWS\Local Sites\tre-radio\app\public/wp-content/themes/forcast/inc/admin/demo-import/demo-content/news-classic/widgets.wie
+Customizer file = C:\Users\WWS\Local Sites\tre-radio\app\public/wp-content/themes/forcast/inc/admin/demo-import/demo-content/news-classic/customizer.dat
+Redux files:
+not defined!
+
+---ocdi/before_content_import---
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+Custom Framework file loaded.
+
+---Importing widgets---
+Sidebar : 
+
+Image - No Title - Imported
+empath Recent Posts - Recent Post - Imported
+Empath Newsletter Form - Subscribe To Our Newsletter - Imported
+
+
+
+---Importing customizer settings---
+Customizer settings import finished!
+
+---ocdi/after_import---
+
